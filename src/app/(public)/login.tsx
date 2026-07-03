@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { View, StyleSheet, TextInput, TouchableOpacity } from 'react-native';
-import { Typography } from '../../src/components/Typography';
-import { Button } from '../../src/components/Button';
-import { ScreenContainer } from '../../src/components/ScreenContainer';
-import { useTheme } from '../../src/theme/ThemeContext';
-import { Icon } from '../../src/components/Icon';
+import { Typography } from '../../components/Typography';
+import { Button } from '../../components/Button';
+import { ScreenContainer } from '../../components/ScreenContainer';
+import { useTheme } from '../../theme/ThemeContext';
+import { Icon } from '../../components/Icon';
 
 export default function LoginScreen() {
   const { colors, spacing, radii } = useTheme();
@@ -34,7 +34,7 @@ export default function LoginScreen() {
           ]}
         >
           <Typography variant="lg">United States</Typography>
-          <Icon name="chevron-right" size={20} color={colors.textSecondary} />
+          <Icon name="ChevronRight" size={20} color={colors.textSecondary} />
         </TouchableOpacity>
 
         {/* Phone Input */}
@@ -65,7 +65,7 @@ export default function LoginScreen() {
 
         <View style={styles.syncContainer}>
           <TouchableOpacity style={styles.checkboxRow}>
-            <Icon name="check-square" size={20} color={colors.primary} />
+            <Icon name="CheckSquare" size={20} color={colors.primary} />
             <Typography style={styles.syncText}>Sync Contacts</Typography>
           </TouchableOpacity>
         </View>

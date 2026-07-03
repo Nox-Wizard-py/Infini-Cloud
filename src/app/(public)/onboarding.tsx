@@ -11,10 +11,10 @@ import Animated, {
   interpolate,
   Extrapolation,
 } from 'react-native-reanimated';
-import { Typography } from '../../src/components/Typography';
-import { Button } from '../../src/components/Button';
-import { ScreenContainer } from '../../src/components/ScreenContainer';
-import { useTheme } from '../../src/theme/ThemeContext';
+import { Typography } from '../../components/Typography';
+import { Button } from '../../components/Button';
+import { ScreenContainer } from '../../components/ScreenContainer';
+import { useTheme } from '../../theme/ThemeContext';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 

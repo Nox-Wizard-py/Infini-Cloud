@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { router } from 'expo-router';
 import Animated, { FadeIn, useAnimatedStyle, useSharedValue, withTiming, runOnJS } from 'react-native-reanimated';
-import { Typography } from '../../src/components/Typography';
-import { ScreenContainer } from '../../src/components/ScreenContainer';
-import { Icon } from '../../src/components/Icon';
-import { useTheme } from '../../src/theme/ThemeContext';
+import { Typography } from '../../components/Typography';
+import { ScreenContainer } from '../../components/ScreenContainer';
+import { Icon } from '../../components/Icon';
+import { useTheme } from '../../theme/ThemeContext';
 
 export default function SplashScreen() {
   const { colors } = useTheme();
