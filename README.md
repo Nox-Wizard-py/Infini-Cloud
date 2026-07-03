@@ -6,15 +6,13 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 1. Install dependencies
 
-   ```bash
+   bash
    npm install
-   ```
 
 2. Start the app
 
-   ```bash
+   bash
    npx expo start
-   ```
 
 In the output, you'll find options to open the app in a
 
@@ -29,9 +27,9 @@ You can start developing by editing the files inside the **app** directory. This
 
 When you're ready, run:
 
-```bash
+bash
 npm run reset-project
-```
+
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
@@ -54,3 +52,9 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+# ☁️∞ Infini Cloud
+
+Store without limits.
+
+Infini Cloud is a beautiful, open-source cloud storage application that transforms your Telegram account into a modern, secure, and seamless personal cloud.
