@@ -1,60 +1,133 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
-
-   bash
-   npm install
-
-2. Start the app
-
-   bash
-   npx expo start
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-bash
-npm run reset-project
-
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<div align="center">
 
 # ☁️∞ Infini Cloud
 
-Store without limits.
+### Store without limits.
 
-Infini Cloud is a beautiful, open-source cloud storage application that transforms your Telegram account into a modern, secure, and seamless personal cloud.
+*A beautiful, open-source cloud storage application that transforms your Telegram account into a modern, seamless personal cloud.*
+
+![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge)
+![Expo](https://img.shields.io/badge/Expo-SDK%2057-000020?style=for-the-badge)
+![React Native](https://img.shields.io/badge/React%20Native-0.81-61DAFB?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
+</div>
+
+---
+
+## ✨ Overview
+
+Infini Cloud is a modern cloud storage client that uses **Telegram** as its storage engine.
+
+Instead of relying on traditional cloud providers, Infini Cloud transforms your Telegram account into a clean, organized, and intuitive personal cloud experience.
+
+No subscriptions.
+
+No advertisements.
+
+No vendor lock-in.
+
+Just your files.
+
+---
+
+## 🚀 Features
+
+### Current
+
+- Modern React Native + Expo architecture
+- Beautiful onboarding experience
+- Telegram-inspired authentication UI
+- Light, Dark & AMOLED themes
+- Clean and minimal design
+
+---
+
+### Planned
+
+- 📂 File & Folder Management
+- 📸 Photo & Video Backup
+- 🔍 Instant Search
+- ⭐ Favorites
+- 🗑️ Trash & Recovery
+- 🔒 Optional End-to-End Encryption
+- 📊 Storage Analytics
+- ☁️ Multiple Storage Providers
+- 💻 Desktop Client
+- 🌐 Web Client
+
+---
+
+## 🏗️ Tech Stack
+
+### Mobile
+
+- React Native
+- Expo
+- TypeScript
+- Expo Router
+- Reanimated
+- Gesture Handler
+
+### Storage
+
+- Telegram MTProto *(planned)*
+
+### State Management
+
+- Zustand *(planned)*
+
+### Local Storage
+
+- MMKV *(planned)*
+
+---
+
+## 🎯 Project Goals
+
+Infini Cloud aims to provide:
+
+- A beautiful user experience
+- Complete ownership of your files
+- Open-source transparency
+- Premium-quality UI
+- Fast and responsive performance
+- Privacy-first architecture
+
+---
+
+## 🛣️ Roadmap
+
+- [x] Phase 1 — Project Foundation
+- [ ] Phase 2 — Telegram Authentication
+- [ ] Phase 3 — Metadata Engine
+- [ ] Phase 4 — Storage Engine
+- [ ] Phase 5 — File Explorer
+- [ ] Phase 6 — Search
+- [ ] Phase 7 — Encryption
+- [ ] Phase 8 — Polish
+- [ ] Phase 9 — First Stable Release
+
+---
+
+## 🤝 Contributing
+
+Contributions, ideas, bug reports, and feature requests are always welcome.
+
+Please open an Issue before submitting major changes so we can discuss the proposed implementation.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+<div align="center">
+
+### Store. Sync. Own.
+
+Made with ❤️ by **Nox Wizard**
+
+</div>
