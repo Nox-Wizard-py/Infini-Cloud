@@ -1,6 +1,6 @@
 <div align="center">
 
-# ☁️∞ Infini Cloud
+# ☁️∞ Skyloop
 
 ### Store without limits.
 
@@ -17,9 +17,9 @@
 
 ## ✨ Overview
 
-Infini Cloud is a modern cloud storage client that uses **Telegram** as its storage engine.
+Skyloop is a modern cloud storage client that uses **Telegram** as its storage engine.
 
-Instead of relying on traditional cloud providers, Infini Cloud transforms your Telegram account into a clean, organized, and intuitive personal cloud experience.
+Instead of relying on traditional cloud providers, Skyloop transforms your Telegram account into a clean, organized, and intuitive personal cloud experience.
 
 No subscriptions.
 
@@ -85,7 +85,7 @@ Just your files.
 
 ## 🎯 Project Goals
 
-Infini Cloud aims to provide:
+Skyloop aims to provide:
 
 - A beautiful user experience
 - Complete ownership of your files
